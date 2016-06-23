@@ -1,3 +1,4 @@
+// variables
 var aNumber = 100;
 var aString = "This is a string";
 var aBool = true;
