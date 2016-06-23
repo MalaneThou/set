@@ -1,6 +1,4 @@
-// variables
-
-/*var aNumber = 100;
+var aNumber = 100;
 var aString = "This is a string";
 var aBool = true;
 var anArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -30,33 +28,32 @@ var DOB = {
 function alrt() {
 	alert("testing");
 }
-alrt();
-
 
 function addition(num1, num2) {
 	var total = 0;
 	total = Number(num1) + Number(num2);
-	return total; 
+	return total;
 }
 var firstNumber = prompt("Enter your first number: ");
 var secondNumber = prompt("Enter your second number: ");
 
 
 var adding = addition(firstNumber, secondNumber);
-alert("Your total is:" + adding);
+alert("Your total is: " + adding);
 
+/* DOM practice */
+/*returns single item */
+document.getElementById();
+document.querySelector(); /* css style notation */
 
-document.getElementById(); document.querySelector();
-
-
+/*returns a list */
 document.getElementsByClass();
 document.getElementsByTag();
+document.querySelectorAll(); /* css style notation */
 
-document.querySelectorAll();
 Wisedth.firstName;
 anArray[0];
-*/
-var anArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
 
 for (var i = 0; i < anArray.length; i++) {
 	console.log(anArray[i]);
